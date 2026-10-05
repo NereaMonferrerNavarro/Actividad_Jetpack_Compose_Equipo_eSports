@@ -55,39 +55,43 @@ class MainActivity : ComponentActivity() {
 
                             )
 
-                            HorizontalDivider(modifier = Modifier
-                                .height(30.dp)
-                                .background(colorResource(R.color.teal_700))
+                            HorizontalDivider(
+                                thickness =30.dp ,
+                                color = colorResource(id = R.color.teal_700),
+                                modifier = Modifier
                                 .fillMaxWidth()
                             )
 
                             Jugador("AlexPro", "Atacante", 21, 87, R.drawable.jugador1)
 
-                            HorizontalDivider(modifier = Modifier
-                                .height(15.dp)
-                                .background(colorResource(R.color.teal_700))
+                            HorizontalDivider(
+                                thickness =15.dp ,
+                                color = colorResource(id = R.color.teal_700),
+                                modifier = Modifier
                                 .fillMaxWidth())
 
                             Jugador("ShadowX", "Defensor", 24, 91, R.drawable.jugador2)
 
-                            HorizontalDivider(modifier = Modifier
-                                .height(15.dp)
-                                .background(colorResource(R.color.teal_700))
-                                .fillMaxWidth())
+                            HorizontalDivider( thickness =15.dp ,
+                                color = colorResource(id = R.color.teal_700),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                            )
 
                             Jugador("MartaGG", "Soporte", 20, 84, R.drawable.jugador3)
 
-                            HorizontalDivider(modifier = Modifier
-                                .height(15.dp)
-                                .background(colorResource(R.color.teal_700))
-                                .fillMaxWidth())
+                            HorizontalDivider( thickness =15.dp ,
+                                color = colorResource(id = R.color.teal_700),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                            )
 
                             Jugador("Destroyer", "Atacante", 23, 89, R.drawable.jugador4)
 
-                            HorizontalDivider(modifier = Modifier
-                                .height(15.dp)
-                                .background(colorResource(R.color.teal_700))
-                                .fillMaxWidth()
+                            HorizontalDivider( thickness =15.dp ,
+                                color = colorResource(id = R.color.teal_700),
+                                modifier = Modifier
+                                    .fillMaxWidth()
                             )
 
                         }
